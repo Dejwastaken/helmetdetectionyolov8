@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(conda activate:*)",
+      "Bash(python:*)",
+      "Bash(call conda activate yolohelm)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(if not exist \"media\\output\" mkdir \"media\\output\")",
+      "Bash(mkdir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

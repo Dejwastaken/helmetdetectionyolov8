@@ -1,0 +1,23 @@
+HELMET DETECTION USAGE EXAMPLES
+================================
+
+1. Run with PyTorch models (default):
+   python helmetvideo.py
+
+2. Run with PyTorch models (explicit):
+   python helmetvideo.py --model-type pytorch
+
+3. Run with ONNX models:
+   python helmetvideo.py --model-type onnx
+
+4. Custom input and output paths with PyTorch:
+   python helmetvideo.py --model-type pytorch --input-video "path/to/input.mp4" --output-video "path/to/output.mp4"
+
+5. Custom input and output paths with ONNX:
+   python helmetvideo.py --model-type onnx --input-video "media/test2.mp4" --output-video "media/result_onnx.mp4"
+
+FEATURES ADDED:
+- Progress bar showing frame processing status
+- Command-line option to choose between PyTorch (.pt) and ONNX (.onnx) models
+- Customizable input and output video paths
+- Better error handling and user feedback
